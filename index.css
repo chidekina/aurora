@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+:root {
+    --primary-color: #6a2c70;
+    --secondary-color: #FEACC6;
+    --tertiary-color: #8d3a95;
+    --dark-color: #471e4b;
+    --light-color: #ffdee9;
+    --medium-color: #fd7aa3;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Parkinsans', sans-serif;
+    width: 100%;
+    background-color: var(--light-color);
+}
